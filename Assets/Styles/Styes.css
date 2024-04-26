@@ -9,7 +9,20 @@
 
 body{
     min-height: 100vh;
-    background: url(/Assets/Img/fondo1.jpg) no-repeat;
+    background: url(/Assets/Img/fondo.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
