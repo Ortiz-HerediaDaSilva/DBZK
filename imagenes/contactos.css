@@ -6,6 +6,11 @@ main{
 }
 .container{
     margin-top: 57px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 label{
     background-color: black;
@@ -14,4 +19,11 @@ label{
     border-radius: 10px;
 }#exampleFormControlInput1{
     width: 50% !important;
+}#exampleFormControlTextarea1{
+    margin-top: 10%;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+
+
 }
