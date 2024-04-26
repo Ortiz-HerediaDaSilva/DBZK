@@ -9,7 +9,7 @@
 
 body{
     min-height: 100vh;
-    background: url(/Assets/Img/fondo2.jpg) no-repeat;
+    background: url(/Assets/Img/goku.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -21,6 +21,7 @@ body{
     width: 100%;
     padding: 1.3rem 10%;
     background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
     display: flex;
     justify-content: space-between;
     align-items: center;
