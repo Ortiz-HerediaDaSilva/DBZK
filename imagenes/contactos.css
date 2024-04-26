@@ -1,10 +1,17 @@
 main{
-    margin-top: 56px;
     height: 100vh;
     background: url(23d273af-938b-4ea9-b1b1-309a611a8d82_InPixio.png)no-repeat;
     background-size: cover;
     background-position: center;
 }
-.mb-3{
-    
+.container{
+    margin-top: 57px;
+}
+label{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}#exampleFormControlInput1{
+    width: 50% !important;
 }
