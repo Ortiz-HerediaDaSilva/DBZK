@@ -1,16 +1,17 @@
 body{
     height: 100vh;
-    background: url(23d273af-938b-4ea9-b1b1-309a611a8d82_InPixio.png)no-repeat;
+    background: url(Gogeta\ SSJB_InPixio.png)no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 .container{
     margin-top:100px;
     height: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
 label{
@@ -19,9 +20,9 @@ label{
     padding: 5px;
     border-radius: 10px;
 }#exampleFormControlInput1{
-    width: 600px !important;
+    width: 400px !important;
 }#exampleFormControlTextarea1{
-    width: 600px !important;
+    width: 400px !important;
     height: 250px;
     padding: 5px;
     border-radius: 10px;
@@ -37,12 +38,11 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: 40%;
+    align-items: flex-start;
+    margin-left: 6%;
         
 }.enviar-form:hover{
     background-color: aqua;
     color: black;
     transition: 0.4s;
-
 }
