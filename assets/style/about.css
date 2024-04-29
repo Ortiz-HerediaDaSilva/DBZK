@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(hsla(231, 9%, 29%, 0.75),
+     hsla(225, 47%, 16%, 0.75)),url(/assets/img/goku_Chico.jpg);
+     min-height:  100vh;
+     background-size: cover;
+}
+img{
+    height: 150px;
+    width: 300px;
+}
