@@ -9,9 +9,14 @@
 
 body{
     min-height: 100vh;
+    max-width: 100vw;
     background: url(/DBZK/Assets/Img/goku.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+}
+.enviar{
+    display:flex ;
+    justify-content: center;
 }
 
 .header{

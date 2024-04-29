@@ -47,14 +47,18 @@
                 </div>
                 <div class="mb-2">
                     <label for="Genero">Genero</label>
-                    <input type="text"  placeholder="Ingrese su Genero" value="Masculino"> 
-                </div>
+                    <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">prefiero no decirlo</option>
+                        <option>soltero</option>
+                        <option>Casado</option>
+                    </select>
+                    <br>
                 <div class="mb-2">
                     <label for="Mensaje">Mensaje</label>
                    <textarea name="Mensaje"  placeholder= "Ingrese su incoveniente" cols="50" rows="10"></textarea>
                 </div>
-                <div class="mb-2">
-                   <button class="btn-btn-white" cols="20">ENVIAR</button>
+                <div class="enviar">
+                <button class="btn-btn-white" cols="20">ENVIAR</button>
                 </div>
             </form>
         </div>
